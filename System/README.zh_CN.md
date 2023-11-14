@@ -1,22 +1,22 @@
 # DogDayAndroid Buildbot
 
-English | [中文文档](./README.zh_CN.md)
+[English](./README.md) | 中文文档
 
-## Build Script
+## 构建脚本
 
-### How to build?
+### 如何构建？
 
-```bash
+````bash
 chmod +x build.sh
-source build.sh
-```
+源构建.sh
+````
 
 - [ponces/treble_build_pe](https://github.com/ponces/treble_build_pe)
 
-## Patches
+## 补丁
 
-### Google Photos
+### 谷歌照片
 
-- Achieve unlimited cloud storage of pictures by pretending to be a PixelXL model
+- 伪装为 `PixelXL` 实现无限图片云端存储
 
 - [crDroid](https://github.com/crdroidandroid/android_frameworks_base/blob/cc484e53adfe6be0bb5582502f49800951ed48b5/core/java/com/android/internal/util/crdroid/PixelPropsUtils.java#L249)
