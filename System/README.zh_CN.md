@@ -6,10 +6,10 @@
 
 ### 如何构建？
 
-````bash
+```bash
 chmod +x build.sh
 源构建.sh
-````
+```
 
 - [ponces/treble_build_pe](https://github.com/ponces/treble_build_pe)
 

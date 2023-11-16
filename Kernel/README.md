@@ -1,18 +1,6 @@
 # Build Your Own Kernel
 
 English | [中文文档](./README.zh_CN.md)
-<div align="center">
-
----
-
-**[<kbd> <br>  Configure  <br> </kbd>](./configs/)**  |
-**[<kbd> <br>  Quick Start  <br> </kbd>](#instructions)**  |
-**[<kbd> <br>  Build on Local  <br> </kbd>](#local-build)**  |
-**[<kbd> <br>  FAQ  <br> </kbd>](#faq)**
-
----
-
-</div>
 
 In this part, we will use `Github Action` to perform kernel cloud compilation. The directory structure of this project is as follows:
 
@@ -73,7 +61,7 @@ timeline
         Basic configuration : 😎 Set build args : 😋 Setup KernelSU : 😋 Setup LXC Docker
             : 👍 Build kernel
     section Post build
-        Upload Artifact : 💛 Upload Image : 💙 Upload Image.gz : 💙 Upload Image.gz-dtb 
+        Upload Artifact : 💛 Upload Image : 💙 Upload Image.gz : 💙 Upload Image.gz-dtb
             : 💜 Upload dtb : ❤️ Upload dtbo.img : ☢️ Upload output directory
         Pack Anykernel3 : ⏰ Get Anykernel3 : ⏰ Pack your kernel : 💾 Upload AnyKernel3 package
         Release

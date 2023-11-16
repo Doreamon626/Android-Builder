@@ -1,18 +1,6 @@
 # 构建属于你自己的内核镜像
 
 [English](./README.md) | 中文文档
-<div align="center">
-
----
-
-**[<kbd> <br>  配置文件使用方法  <br> </kbd>](./configs/)**  |
-**[<kbd> <br>  快速开始  <br> </kbd>](#使用方法)**  |
-**[<kbd> <br>  本地构建  <br> </kbd>](#本地构建)**  | 
-**[<kbd> <br>  常见问题  <br> </kbd>](#常见问题)**
-
----
-
-</div>
 
 这部分内容中，我们会利用 `Github Action` 进行内核云编译。本项目的目录结构如下：
 
@@ -73,7 +61,7 @@ timeline
         Basic configuration : 😎 设定编译参数 : 😋 配置 KernelSU : 😋 配置 LXC Docker
             : 👍 开始内核编译
     section 文件上传、发布
-        中间件上传 : 💛 上传 Image : 💙 上传 Image.gz : 💙 上传 Image.gz-dtb 
+        中间件上传 : 💛 上传 Image : 💙 上传 Image.gz : 💙 上传 Image.gz-dtb
             : 💜 上传 dtb : ❤️ 上传 dtbo.img : ☢️ 上传输出文件夹
         Anykernel3 打包 : ⏰ 下载 Anykernel3 : ⏰ 打包内核 : 💾 上传刷机包
         发布
